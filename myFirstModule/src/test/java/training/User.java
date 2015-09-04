@@ -1,5 +1,7 @@
 package userData;
 
+import training.Profile;
+
 public class User {
 
     private String userName;
