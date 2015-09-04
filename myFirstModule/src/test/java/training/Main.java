@@ -2,7 +2,6 @@ package training;
 
 import org.testng.annotations.Test;
 import org.testng.Assert;
-import userData.*;
 
 public class Main {
 
