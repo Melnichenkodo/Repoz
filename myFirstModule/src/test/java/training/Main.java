@@ -11,7 +11,6 @@ public class Main {
         user1.setUserName("TestUsername");
         System.out.println(user1.getUserName());
 
-        System.out.println("asdlkfjhas;dlfkjasldfkas';dflkas'");
         Profile profile1 = new Profile(53, 'M', 142.64, "java developer", 'n', 'Y');
         Profile profile2 = new Profile(167, 'F', 280, "bussines analyst", 'y', 'n');
         User2.User user2 = new User2.User("TestUsername", "TestPassword", profile2);
