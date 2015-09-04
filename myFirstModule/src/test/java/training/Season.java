@@ -7,10 +7,10 @@ import java.lang.String;
 
 public class Season {
 
-    public String season (String month) {
+    public String season(String month) {
         String season;
-        month=month.toLowerCase();
-        if (month=="january" || month.equals("february") || month.equals("march")) {
+        month = month.toLowerCase();
+        if (month == "january" || month.equals("february") || month.equals("march")) {
             season = "winter";
 
         } else if (month.equals("july") || month.equals("august")) {
@@ -24,9 +24,9 @@ public class Season {
     }
 
     @Test
-    public void main(){
+    public void main() {
 
-        Assert.assertEquals(season("fEbruar"),"winter");
-        Assert.assertEquals(season("July"),"august");
+        Assert.assertEquals(season("fEbruar"), "winter");
+        Assert.assertEquals(season("July"), "august");
     }
 }

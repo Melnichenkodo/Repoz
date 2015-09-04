@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 
 public class Profile {
 
-    private int numberOfFriends=0;
+    private int numberOfFriends = 0;
     private char gender;
-    private double avarageSalary=0.00;
+    private double avarageSalary = 0.00;
     private String position;
     private char isPreviousJob;
     private char isAgreesToTravelAbroad;
@@ -20,12 +20,12 @@ public class Profile {
         this.isAgreesToTravelAbroad = isAgreesToTravelAbroad;
     }
 
-    public double getAvarageSalary(){
+    public double getAvarageSalary() {
         return avarageSalary;
     }
 
     //@Test
     //public void main(){
-        //System.out.println("Не коммитется");
+    //System.out.println("Не коммитется");
     //}
 }
